@@ -11,3 +11,19 @@ manifest:
       import: app/west.yml
   self:
     path: config
+
+# tsuru not found here
+#manifest:
+  #remotes:
+    #- name: zmkfirmware
+      ##url-base: https://github.com/zmkfirmware
+      ## change to ftc for mouse support
+      #url-base: https://github.com/ftc/
+  #projects:
+    #- name: zmk
+      #remote: zmkfirmware
+      #revision: mouse-ftc # main
+      #import: app/west.yml
+  #self:
+    #path: config
+#
